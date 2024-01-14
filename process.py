@@ -181,8 +181,7 @@ def main():
     # Parse the command line arguments
     args = parser.parse_args()
 
-    # batch_process(args.directory_path)
-    print(args.directory_path)
+    batch_process(args.directory_path)
 
 
 if __name__ == "__main__":
