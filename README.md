@@ -2,7 +2,7 @@
 
 Image processor is a script to print metadata to the image.
 The script will add margin, add logo and print out the parameters for the image.
-It will also lower the resolution so it would be easier to share and protect the copyright of the image.
+It will also lower the resolution so it would be easier to share the image and protect its copyright.
 
 ## Dependencies
 
