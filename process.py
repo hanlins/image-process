@@ -147,9 +147,6 @@ def resize_image(img, target_resolution):
     return img
 
 
-# Example usage
-input_photo = "input2.jpg"
-output_photo = "output_processed.jpg"
 logo_path = "logo.jpg"
 margin_size = 50
 target_resolution = (2000, 2000)
