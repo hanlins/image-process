@@ -159,11 +159,14 @@ def batch_process(dir):
         os.makedirs(output_dir)
     for f in os.listdir(dir):
         if f.endswith(".JPG"):
-            input_path = os.path.join(dir, f)
-            output_path = os.path.join(output_dir, f)
-            process_photo(
-                input_path, output_path, margin_size, logo_path, target_resolution
-            )
+            try:
+                input_path = os.path.join(dir, f)
+                output_path = os.path.join(output_dir, f)
+                process_photo(
+                    input_path, output_path, margin_size, logo_path, target_resolution
+                )
+            except Exception as e:
+                print(f"Error processing {f}: {e}")
 
 
 def main():
